@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>CharaCall — Your own character calls you</title>
+<meta name="description" content="CharaCall turns calendar notifications into a call from a character you made from your own image and voice.">
+<style>
+:root{color-scheme:light dark;--bg:#f7f6fa;--card:#fff;--fg:#1d1d1f;--muted:#6e6e73;--line:#e3e1ea;--accent:#7a3fd1}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#151418;--fg:#f5f5f7;--muted:#a1a1a6;--line:#2c2b32;--accent:#b794ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Hiragino Sans","Hiragino Kaku Gothic ProN","Segoe UI",Roboto,"Noto Sans JP",Meiryo,sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:24px 20px 48px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.brand{font-weight:700;color:var(--fg);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:.95rem}
+nav a:hover,nav a[aria-current]{color:var(--fg)}
+h1{font-size:2rem;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:1.25rem;margin:2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:1.4em 0 .3em}
+.muted{color:var(--muted)}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:16px 0}
+.hero{text-align:center;padding:40px 0 16px}
+.logo{font-weight:800;font-size:clamp(2.4rem,12vw,4rem);letter-spacing:.01em;color:var(--accent);margin:0}
+.pitch{font-size:1.15rem;color:var(--muted);margin:.4em 0 1.6em}
+.buttons a{display:inline-block;margin:6px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);text-decoration:none;font-weight:600}
+ul{padding-left:1.3em}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="./">CharaCall</a>
+<nav><a href="support/">Support</a><a href="privacy/">Privacy</a><a href="#ja" lang="ja">日本語</a></nav>
+</header>
+<main>
+<section class="hero">
+<p class="logo">CharaCall</p>
+<p class="pitch">Make a character from your own image and voice. When a calendar event starts, your character calls you.</p>
+<div class="buttons"><a href="support/">Support</a><a href="privacy/">Privacy Policy</a></div>
+</section>
+<div class="card">
+<ul>
+<li>Create characters from your own image and voice file</li>
+<li>Announces events from the Calendar app on your device</li>
+<li>Notifications with the character's picture and voice</li>
+<li>Stopwatch with character announcements</li>
+<li>Free, no ads, no accounts, no data collected</li>
+</ul>
+</div>
+<section id="ja" lang="ja">
+<h2>キャラコール(CharaCall)</h2>
+<p>お手持ちの画像と音声で、あなただけのキャラクターを作成。カレンダーの予定が始まると、キャラクターが画像と声でお知らせします。無料・広告なし・アカウント不要・データ収集なし。</p>
+<div class="buttons"><a href="ja/support/">サポート</a><a href="ja/privacy/">プライバシーポリシー</a></div>
+</section>
+</main>
+<footer>© 2026 Youta Morita</footer>
+</div>
+</body>
+</html>

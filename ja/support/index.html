@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>サポート — キャラコール</title>
+<meta name="description" content="キャラコール(CharaCall)のサポートとよくある質問。">
+<style>
+:root{color-scheme:light dark;--bg:#f7f6fa;--card:#fff;--fg:#1d1d1f;--muted:#6e6e73;--line:#e3e1ea;--accent:#7a3fd1}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#151418;--fg:#f5f5f7;--muted:#a1a1a6;--line:#2c2b32;--accent:#b794ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Hiragino Sans","Hiragino Kaku Gothic ProN","Segoe UI",Roboto,"Noto Sans JP",Meiryo,sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:24px 20px 48px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.brand{font-weight:700;color:var(--fg);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:.95rem}
+nav a:hover,nav a[aria-current]{color:var(--fg)}
+h1{font-size:2rem;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:1.25rem;margin:2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:1.4em 0 .3em}
+.muted{color:var(--muted)}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:16px 0}
+.hero{text-align:center;padding:40px 0 16px}
+.logo{font-weight:800;font-size:clamp(2.4rem,12vw,4rem);letter-spacing:.01em;color:var(--accent);margin:0}
+.pitch{font-size:1.15rem;color:var(--muted);margin:.4em 0 1.6em}
+.buttons a{display:inline-block;margin:6px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);text-decoration:none;font-weight:600}
+ul{padding-left:1.3em}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="../../">CharaCall</a>
+<nav><a href="../../ja/support/" aria-current="page">サポート</a><a href="../../ja/privacy/">プライバシー</a><a href="../../support/" lang="en">English</a></nav>
+</header>
+<main>
+<h1>サポート</h1>
+<p class="muted">キャラコール(CharaCall)についてのよくある質問です。解決しない場合は、ページ下部の連絡先までお問い合わせください。</p>
+<h2>よくある質問</h2>
+<h3>はじめに何をすればいいですか?</h3>
+<p>初回起動時に、ガイドに沿って「キャラクターの作成」「通知の許可」「カレンダーの許可」「カレンダーの選択」「テスト通知」の順に設定できます。付属のサンプルキャラクターで試すこともできます。設定画面から、いつでもやり直せます。</p>
+
+<h3>キャラクターはどうやって作りますか?</h3>
+<p>写真アプリまたはファイルから画像と音声ファイルを選び、名前を付けて保存します。音声の長さは自由です。</p>
+
+<h3>使えるファイルの種類は?</h3>
+<p>画像は JPEG、PNG、HEIC など一般的な形式、音声は mp3、m4a、wav など一般的な形式(長さは自由)に対応しています。取り込めない場合は、これらの形式に変換してお試しください。</p>
+
+<h3>Google カレンダーを使うには?</h3>
+<p>キャラコールは、端末のカレンダーアプリの予定を読み取ります。iPhone / iPad の「設定」>「カレンダー」>「アカウント」>「アカウントを追加」>「Google」からサインインし、「カレンダー」をオンにしてください。その後キャラコールを開いて、カレンダーを選択します。Exchange など、カレンダーアプリに追加したアカウントも同様に使えます。</p>
+
+<h3>カレンダー・キャラクター・通知のタイミングを変えるには?</h3>
+<p>キャラコールの設定画面で、お知らせするカレンダーの選択、カレンダーごとのキャラクターの割り当て(デフォルトのキャラクターも設定可能)、通知のタイミング(開始時刻、および5・10・15・30・60分前)を変更できます。終日の予定は、お好きな時刻に通知されます。</p>
+
+<h3>予定を変更したのに、通知が更新されません。</h3>
+<p>通知は今後約14日分が予約され、キャラコールを開いたときに更新されます(iOS がバックグラウンドで更新することもあります)。予定を追加・変更・削除したら、一度キャラコールを開いてください。なお、iOS の仕様でアプリが予約できる通知の数には上限があります。</p>
+
+<h3>キャラクターの声が聞こえません。</h3>
+<p>次の点をご確認ください。<ul><li>着信/消音スイッチ(消音モード)がオフになっていないか。消音時は通知音が鳴らず、「集中モードでも通知」でも解除できません。</li><li>音量が小さくなっていないか。</li><li>集中モードが通知を止めていないか。キャラコールの「集中モードでも通知」オプションをオンにすると、集中モード中も通知が届きます(集中モード側で時間指定の通知を許可している必要があります)。</li><li>端末の設定でキャラコールの通知とサウンドが許可されているか。</li><li>通知で再生されるのは音声ファイルの最初の25秒までです。アプリを開いているときは最後まで再生されます。</li></ul></p>
+
+<h3>アラームとして使えますか?</h3>
+<p>いいえ。キャラコールは通知アプリで、止めるまで繰り返し鳴ることはありません。目覚ましには、iPhone に標準で入っているアラーム機能をご利用ください。</p>
+
+<h3>ストップウォッチのお知らせはどう使いますか?</h3>
+<p>ストップウォッチ画面で、キャラクターがお知らせする間隔(1・5・10・15・30・60分ごと)を選んでスタートします。お知らせは通知として届くので、アプリを閉じていても動作します。</p>
+
+<h3>キャラクターを削除するには?</h3>
+<p>キャラクター一覧から削除してください。取り込んだ画像と音声も、端末内のアプリの保存領域から削除されます。アプリ自体を削除すると、すべてのデータが消えます。</p>
+
+<h3>Mac で使えますか?</h3>
+<p>はい。Apple シリコンの Mac では、iPad アプリ(iPad 用に設計)として利用できます。Mac のカレンダーアプリの予定(iCloud カレンダーなど)を読み取ります。macOS の制限により、Mac では取り込んだファイルを通知音にできません。通知には標準の音が使われ、キャラクターの声はアプリを開いているときに再生されます。</p>
+
+<h3>データは収集されますか?</h3>
+<p>いいえ。キャラコールは通信を一切行わず、データを収集しません。詳しくは<a href="../privacy/">プライバシーポリシー</a>をご覧ください。</p>
+
+<h3>画像や音声の権利について</h3>
+<p>ご自身が所有している、または使用する権限のある画像と音声のみをご利用ください。キャラコールは、ご自身が取り込んだファイルだけを再生します。</p>
+
+<h2>お問い合わせ</h2>
+<p>ご質問・ご意見は <a href="mailto:swiftiosotr@gmail.com">swiftiosotr@gmail.com</a> までメールでご連絡ください。お使いの機種と iOS のバージョンを添えていただくとスムーズです。</p>
+
+</main>
+<footer>© 2026 Youta Morita</footer>
+</div>
+</body>
+</html>
